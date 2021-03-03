@@ -1,0 +1,173 @@
+#container{
+    display: flex;
+    position: absolute;
+/*
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+*/
+/*    margin: 0 auto;*/
+    text-align: center;
+    top: 12rem;
+    width: 100%;
+    order:1;
+    
+}
+
+/*
+#content{
+    position: absolute;
+    left:0;
+}
+
+main{
+    position: absolute;
+    right: 0;
+
+}
+*/
+
+@media (max-width: 500px){
+    
+    #container{
+        display: flex;
+        position: absolute;
+        text-align: center;
+        top: 12rem;
+        width: 100%;
+        order:1;
+        flex-direction: column;
+    }
+    
+    aside{
+        height: 30rem;
+    }
+    
+}
+
+body{
+    margin: 0 auto;
+    width: 100%;
+}
+
+header{
+    text-align: center;
+    text-decoration:overline;
+}
+
+.home{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    z-index: 1;
+    background-color: white;
+}
+
+.home li{
+    display: inline-block;
+    background-color: cornsilk;
+    border: 2rem solid cornsilk;
+}
+
+
+main p{
+    top: 5rem;
+    position:relative;
+    line-height: 30px;
+}
+
+#youginong{
+    color: black;
+    font-style: italic;
+}
+main{
+    text-align: center;
+    flex-grow: 1;
+    order: 2;
+    background-color:rgba(100,120,250,0.2);
+    color:dimgrey;
+}
+
+aside{
+    order: 1;
+    flex-grow: 1;
+    background-color: cornsilk;
+}
+
+aside p{
+    position:relative;
+    top: 50px;
+    color: gray;
+}
+/*
+#coffee{
+    color: beige;
+}
+
+#ade{
+    color: tomato;
+}
+
+#decaffeine{
+    color:brown;
+}
+*/
+
+#content{
+    letter-spacing: 2px;
+    flex-grow: 1;
+    background-color:cornflowerblue;
+    color: aliceblue;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+#content ul{
+    list-style: none;
+    line-height: 2rem;
+    margin-right: 2rem;
+    order: 0;
+}
+main img{
+    position:relative;
+    top: 100px;
+}
+
+#menu{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: lightskyblue;
+    border: 80px solid lightskyblue;
+    color: darkslategray;
+}
+
+footer li,a{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    margin-right: 12px;
+}
+
+footer li{
+    border-right: 1px solid gray;
+
+}
+
+footer{
+    background-color: darkcyan;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid rgba(150,55,70,0.2);
+    border-top: 1px solid rgba(100,55,70,0.2);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    order:2;
+    top: 52rem;
+    margin-top: 10px;
+    background-color: rgba(100,55,70,0.2);
+}
+
